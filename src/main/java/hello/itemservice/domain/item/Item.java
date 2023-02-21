@@ -14,15 +14,15 @@ Integer를 쓰면 Null이 들어갈 수 있다.
 public class Item {
 
     private Long id;
-    private String itemname;
+    private String itemName;
     private Integer price;
     private Integer quantity;
 
     public Item() {
     }
 
-    public Item(String itemname, Integer price, Integer quantity) {
-        this.itemname = itemname;
+    public Item(String itemName, Integer price, Integer quantity) {
+        this.itemName = itemName;
         this.price = price;
         this.quantity = quantity;
     }
